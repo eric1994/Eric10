@@ -2,11 +2,9 @@
 
 
 #nav{
-	height: 3em !important;
 	background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
     margin-bottom: 0px;
-   /* border-color: rgba(8, 8, 8, 0.62);*/ 
    	border-color: transparent; !important;
     border-radius: 0px;
 
