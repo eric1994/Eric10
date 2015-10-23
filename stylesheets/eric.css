@@ -24,6 +24,61 @@ footer{
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 
+
+
+#primerid{
+	display: inline-block;
+	background-color: #6666FF;
+	height: 100px;
+	width: 100px;
+	transform: scale(0.5);
+	transition: all 2s ease-in-out;
+}
+
+#primerid:hover{
+	transform: rotate(30deg);
+}
+
+#segundoid{
+	display: inline-block;
+	background-color: #330033;
+	height: 100px;
+	width: 100px;
+	transform: scale(0.5);
+	transition: all 2s ease-in-out;
+}
+
+#segundoid:hover{
+	transform: rotate(30deg);
+}
+
+#tercerid{
+	display: inline-block;
+	background-color: #99FF33;
+	height: 100px;
+	width: 100px;
+	transform: scale(0.5);
+	transition: all 2s ease-in-out;
+}
+
+#tercerid:hover{
+	transform: rotate(30deg);
+}
+
+
+#cuartoid{
+	display: inline-block;
+	background-color: #FF0066;
+	height: 100px;
+	width: 100px;
+	transform: scale(0.5);
+	transition: all 2s ease-in-out;
+}
+
+#cuartoid:hover{
+	transform: rotate(30deg);
+}
+
 ul{
 	float: none !important;
 }
