@@ -1,0 +1,22 @@
+
+
+
+#nav{
+	height: 0.7em !important;
+	background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    margin-bottom: -5em;
+}
+
+
+ul{
+	float: none !important;
+}
+
+a{
+	color: #fff !important;
+}
+
+li{
+	margin-left: 0.5em;
+}
