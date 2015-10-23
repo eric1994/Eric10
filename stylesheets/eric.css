@@ -2,6 +2,7 @@
 
 
 #nav{
+
 	background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
     margin-bottom: 0px;
@@ -9,7 +10,14 @@
     border-radius: 0px;
 
 }
-
+#lorem{
+	height: 26em;
+}
+footer{
+	background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    height: 8.3em;
+}
 
 #pru{
 	background-color: #159957;
