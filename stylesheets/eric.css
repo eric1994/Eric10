@@ -36,20 +36,24 @@ footer{
 }
 
 #primerid:hover{
-	transform: rotate(30deg);
+	width: 900px;
 }
 
 #segundoid{
 	display: inline-block;
 	background-color: #330033;
 	height: 100px;
+	position: relative;
 	width: 100px;
 	transform: scale(0.5);
+	z-index: 2;
 	transition: all 2s ease-in-out;
 }
 
 #segundoid:hover{
-	transform: rotate(30deg);
+	transform: scalex(5);
+	z-index: 2;
+
 }
 
 #tercerid{
@@ -62,21 +66,24 @@ footer{
 }
 
 #tercerid:hover{
-	transform: rotate(30deg);
+	transform: translateY(-500px);
+
 }
 
 
 #cuartoid{
 	display: inline-block;
 	background-color: #FF0066;
-	height: 100px;
-	width: 100px;
-	transform: scale(0.5);
+	height: 50px;
+	width: 50px;
+	margin-left: 2em;
+	margin-bottom: 2.3em;
 	transition: all 2s ease-in-out;
 }
 
 #cuartoid:hover{
-	transform: rotate(30deg);
+	
+	transform: rotate3d(10,10,10,360deg);
 }
 
 ul{
